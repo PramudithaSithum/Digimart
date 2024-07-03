@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digimart/Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="pricing.css">
+    <style>
+        .navbar-nav .nav-item.active .nav-link {
+            font-weight: bold;
+            color: #007bff !important;
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #805dd4 !important;
+            color: white !important;
+        }
+        .nav-tabs .nav-link {
+            color: #805dd4;
+        }
+        .card_main {
+            border: 1px solid #805dd4;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="full-width-bg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/digimartFullLogo.png" alt="Company Logo" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item mr-3 active">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary text-white" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Image page header -->
+    <header class="headerMain">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 headingtext">
+                    <div class="text-uppercase">
+                        <p class="title0">pricing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </header>
+    
+    <!-- Main Content Area -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="title02">
+                    DIGIMART CHARGING SDK
+                </p>
+            </div>
+        </div>
+     </div>
+     
+     <!-- Title Section -->
+     <!-- Card with Tabs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="card_main">
+                    <div class="card-body">
+                        <ul class="nav nav-tabs" id="pricingTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="min-tab" data-toggle="tab" href="#min" role="tab" aria-controls="min" aria-selected="true">One time charging</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="max-tab" data-toggle="tab" href="#max" role="tab" aria-controls="max" aria-selected="false">Subscription charging</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pricingTabContent">
+                            <div class="tab-pane fade show active" id="min" role="tabpanel" aria-labelledby="min-tab">
+                                <div class="card mt-3">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-center">$ 5</h6>
+                                        <p class="text-center">Min</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="max" role="tabpanel" aria-labelledby="max-tab">
+                                <div class="card mt-3">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-center">$ 600</h6>
+                                        <p class="text-center">Max</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footermain">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 bottom-nav">
+                    <p class="footer-heading">NAVIGATION</p>
+                    <hr class="hrhr">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Pricing</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 bottom-nav">
+                    <p class="footer-heading">CONTACT US</p>
+                    <hr class="hrhr">
+                    <p class="footer-text">General Inquiries & Developer Support:</p>
+                    <a href="mailto:support@digimart.store" class="footer-link">support@digimart.store</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="last-footer">
+        <div class="container-fluid bg-dark text-light">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p class="text-center mt-2">Copyright &copy; 2024 | Designed by Pramuditha Kariyawasam | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome JavaScript -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
