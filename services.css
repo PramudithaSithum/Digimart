@@ -109,6 +109,23 @@ body {
     color: #3101a0;
     height: 140px;
 }
+.card-text21 {
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.8;
+    padding: 5px 10%;
+    color: #3101a0;
+    height: 105px;
+}
+.card-text2 {
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.8;
+    padding: 5px 10%;
+    color: #3101a0;
+}
 
 .custom-btn2 {
     color: #ffffff;
@@ -140,7 +157,7 @@ body {
 }
 
 .bottom-nav {
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 
 .footermain {
@@ -219,7 +236,16 @@ body {
         font-size: 14px;
     }
 
-    .card-text {
+    .card-text{
+        font-size: 14px;
+        text-align: center;
+        height: auto;
+    }
+    .card-text2 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .card-text21 {
         font-size: 14px;
         text-align: center;
     }
