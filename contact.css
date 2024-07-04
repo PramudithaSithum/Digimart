@@ -1,0 +1,236 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+/* Navbar Styles */
+.full-width-bg {
+    background-color: #192329;
+    width: 100%;
+}
+
+.navbar-custom {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.btn {
+    color: white !important;
+}
+
+/* Header Styles */
+.headerMain {
+    margin-bottom: 50px;
+    background: aliceblue url("assets/homePageBack.png") fixed no-repeat;
+    background-size: cover;
+    height: 140px;
+}
+
+.headingtext {
+    color: white;
+    padding: px 0 0 40px;
+    text-align: center;
+}
+
+.headingtext p.title0 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+
+.para01 {
+    font-size: 18px;
+    color: #3101a0;
+    line-height: 150%;
+    text-align: center;
+}
+
+.title02 {
+    margin-top: 0;
+    color: #805dd4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title03 {
+    margin-top: 0;
+    color: #805dd4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Card Styles */
+.card-title {
+    color: #805dd4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    margin: 40px 0;
+    padding: 20px 10%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px #00000067;
+}
+
+.card-img {
+    width: 70%;
+    margin: auto 10%;
+}
+.card-text {
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.8;
+    padding: 5px 10%;
+    color: #3101a0;
+    height: 140px;
+}
+
+.custom-btn2 {
+    color: #ffffff;
+    background: #805dd4;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #00000044;
+    border: 1px solid #805dd4;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-left: 100px;
+    /* margin: auto 0; */
+}
+
+.custom-btn2:hover {
+    color: #805dd4;
+    background-color: #ffffff;
+    border: 1px solid #805dd4;
+}
+
+/* Footer Styles */
+.bottom-nav,
+.bottom-nav-right {
+    color: white !important;
+    padding-top: 100px;
+}
+
+.bottom-nav {
+    padding-left: 200px;
+}
+
+.footermain {
+    color: white;
+    background-color: #252525;
+    padding-bottom: 100px;
+}
+
+.hrhr {
+    background-color: white;
+}
+
+.last-footer {
+    background-color: #252525;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.last-footer p {
+    margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .headerMain {
+        height: 90px;
+    }
+
+    .headingtext {
+        padding: 10px;
+    }
+
+    .headingtext p.title0 {
+        margin-top: 18px;
+        font-size: 22px;
+        line-height: 150%;
+        /* padding-left: 40px; */
+    }
+
+    .headingimage img {
+        padding-top: 20px;
+        max-width: 300px;
+        margin-left: 50px;
+    }
+
+    .bottom-nav,
+    .bottom-nav-right {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footermain {
+        padding-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 0px;
+        padding: 20px;
+        /* max-width: 300px; */
+    }
+
+    .card-img {
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .custom-btn2 {
+        margin-left: 35px;
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .title02 {
+        font-size: 20px;
+    }
+    .para01{
+        margin-bottom: 50px;
+    }
+    p.title03{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}

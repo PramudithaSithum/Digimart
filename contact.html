@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digimart/Services</title>
+    <title>Digimart/Contact</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="contact.css">
     <style>
         .navbar-nav .nav-item.active .nav-link {
             font-weight: bold;
@@ -26,6 +26,23 @@
             border-radius: 10px;
             overflow: hidden;
             margin-bottom: 50px;
+        }
+        .form-control:focus {
+            box-shadow: none;
+        }
+        .input-group-text {
+            background-color: #805dd4;
+            border: none;
+            color: white;
+        }
+        .btn-submit {
+            background-color: #805dd4;
+            color: white;
+            border: none;
+        }
+        .btn-submit:hover {
+            background-color: #593d9c;
+            color: white;
         }
     </style>
 </head>
@@ -46,10 +63,10 @@
                         <li class="nav-item mr-3">
                             <a class="nav-link" href="services.html">Services</a>
                         </li>
-                        <li class="nav-item mr-3 active">
+                        <li class="nav-item mr-3">
                             <a class="nav-link" href="pricing.html">Pricing</a>
                         </li>
-                        <li class="nav-item mr-3">
+                        <li class="nav-item mr-3 active">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
@@ -67,62 +84,70 @@
             <div class="row">
                 <div class="col-md-12 headingtext">
                     <div class="text-uppercase">
-                        <p class="title0">pricing</p>
+                        <p class="title0">Contact us</p>
                     </div>
                 </div>
             </div>
         </div>
-     </header>
+    </header>
     
     <!-- Main Content Area -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <p class="title02">
-                    DIGIMART CHARGING SDK
+                    GET IN TOUCH WITH ONE OF OUR TEAM MEMBERS TODAY!
                 </p>
             </div>
         </div>
-     </div>
-     
-     <!-- Title Section -->
-     <!-- Card with Tabs -->
-    <div class="container">
+
+        <!-- Contact Form -->
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-md-8 mx-auto">
                 <div class="card_main">
                     <div class="card-body">
-                        <ul class="nav nav-tabs" id="pricingTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="min-tab" data-toggle="tab" href="#min" role="tab" aria-controls="min" aria-selected="true">One time charging</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="max-tab" data-toggle="tab" href="#max" role="tab" aria-controls="max" aria-selected="false">Subscription charging</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pricingTabContent">
-                            <div class="tab-pane fade show active" id="min" role="tabpanel" aria-labelledby="min-tab">
-                                <div class="card mt-3">
-                                    <div class="card-body">
-                                        <h6 class="card-title text-center">$ 5</h6>
-                                        <p class="text-center">Min</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
                                     </div>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="max" role="tabpanel" aria-labelledby="max-tab">
-                                <div class="card mt-3">
-                                    <div class="card-body">
-                                        <h6 class="card-title text-center">$ 600</h6>
-                                        <p class="text-center">Max</p>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                     </div>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
                                 </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-comment-dots"></i></span>
+                                    </div>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
         </div>
     </div>
 
